@@ -1,0 +1,22 @@
+  <section id="contact">
+        <section class="section-second">
+            <h2>Contactanos</h2>
+            <form id="formulario" method="POST">
+                <div class="datos_form">
+                    <label for="nombre_form">Tu Nombre</label>
+                    <input type="text" name="Nombre" id="nombre_form" placeholder="Nombre" required>
+                </div>
+                <div>
+                    <label for="tel_form">Tu Celular</label>
+                    <input type="text" name="Whatsapp" id="tel_form" placeholder="Whatsapp" required>
+                </div>
+                <div>
+                    <label for="email_form">Tu Correo</label>
+                    <input type="text" name="Email" id="email_form" placeholder="Email" required>
+                </div>
+                <div class="botones">
+                    <button type="submit">Enviar consulta</button>
+                </div>
+            </form>
+        </section>
+    </section>
